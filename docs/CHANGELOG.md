@@ -6,6 +6,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## Unreleased
 ### Added
+- Expose an indexed, read-only numeric flaw `bz_id`, preserving stored legacy metadata and supporting legacy response and `meta_attr__bz_id` filter aliases (OSIDB-5717)
 - Added filters for checking if the workflow state or name are empty (OSIDB-5730)
 - Added filter (aegis_processed) for flaws processed by Aegis/osidb-bot (OSIDB-4817)
 - Extend stats API with tracker counts (OSIDB-5664)
